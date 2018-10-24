@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  MahjongServiceApp
+//
+//  Created by guoqiang on 16/8/27.
+//  Copyright © 2016年 郭强. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+
+#endif /* PrefixHeader_pch */
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "ApiConfig.h"
+#import "OtherConfig.h"
+#import "ClassConfig.h"
+#import "AppKey.h"
+#import "NotifyName.h"
+#import "BaseConfig.h"
+
+#endif
